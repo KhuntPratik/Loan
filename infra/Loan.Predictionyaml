@@ -1,4 +1,3 @@
-# Loan.Predictionyaml
 services:
   - name: loan-prediction
     type: web
