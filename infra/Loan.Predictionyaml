@@ -1,8 +1,0 @@
-services:
-  - name: loan-prediction
-    type: web
-    env: python
-    plan: free
-    buildCommand: "pip install -r requirements.txt"
-    startCommand: "python loan_random_forest.ipynb"
-    branch: main
