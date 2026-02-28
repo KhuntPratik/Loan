@@ -6,7 +6,7 @@ import pandas as pd
 app = Flask(__name__)
 CORS(app)  # 🔥 This fixes the frontend connection issue
 
-model = joblib.load("loan_pipeline.pkl")
+model = joblib.load("random_forest_pipeline.pkl")
 
 @app.route("/")
 def home():
