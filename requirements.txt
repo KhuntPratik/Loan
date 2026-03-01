@@ -2,4 +2,5 @@ pandas
 numpy
 scikit-learn
 joblib
-flask   # if you want to serve predictions via API
+flask
+flask-cors

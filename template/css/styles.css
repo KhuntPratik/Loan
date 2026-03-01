@@ -1,0 +1,31 @@
+/* Simple, clean styles for Loan Default Predictor */
+:root{
+  --bg:#f6f8fb;
+  --card:#ffffff;
+  --accent:#1f6feb;
+  --muted:#6b7280;
+  --radius:10px;
+}
+*{box-sizing:border-box;font-family:Inter,Segoe UI,Arial,sans-serif}
+html,body{height:100%;margin:0;background:var(--bg);color:#111}
+.container{max-width:980px;margin:0 auto;padding:24px}
+.site-header{background:linear-gradient(90deg,#1f6feb33,transparent);padding:28px 0;border-bottom:1px solid #e6eefc}
+.site-header h1{margin:0;font-size:1.6rem}
+.subtitle{color:var(--muted);margin-top:6px}
+.card{background:var(--card);border-radius:var(--radius);box-shadow:0 4px 18px rgba(20,30,60,0.06);padding:18px;margin-bottom:18px}
+.form-card h2{margin-top:0}
+.row{display:flex;gap:12px;margin-bottom:12px}
+.col{flex:1;display:flex;flex-direction:column}
+.col.full{flex-basis:100%}
+label{font-size:0.85rem;color:var(--muted);margin-bottom:6px}
+input[type=number],select{padding:10px;border:1px solid #e6eefc;border-radius:8px;font-size:0.95rem}
+.actions{display:flex;gap:10px;margin-top:8px}
+.btn{background:var(--accent);color:white;padding:10px 14px;border-radius:8px;border:none;cursor:pointer}
+.btn-secondary{background:#eef2ff;color:var(--accent)}
+.result{margin-top:14px;padding:12px;border-radius:8px;background:#f8fafc}
+.hidden{display:none}
+.info-card ul{margin:0;padding-left:18px}
+.site-footer{padding:16px 0;color:var(--muted);text-align:center}
+@media(max-width:720px){
+  .row{flex-direction:column}
+}
